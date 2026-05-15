@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Security | Hide and Seek Tech</title>
+    <meta name="description" content="Data security practices for Shenzhen Hide and Seek Technology Co., Ltd. internal advertising automation.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">H</span><span>Hide and Seek Tech</span></a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html#purpose">Purpose</a>
+        <a href="index.html#data">Data Use</a>
+        <a href="security.html">Security</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </header>
+
+    <main class="legal-page">
+      <p class="eyebrow">Operational safeguards</p>
+      <h1>Data Security</h1>
+      <p>
+        Shenzhen Hide and Seek Technology Co., Ltd. protects advertising data through a least-privilege operating model, access controls,
+        credential separation, audit logs, and bounded automation rules.
+      </p>
+
+      <h2>Credential handling</h2>
+      <p>
+        API credentials and refresh tokens are treated as confidential secrets. They are not embedded in public code,
+        published in client-side files, or shared through public communication channels.
+      </p>
+
+      <h2>Least-privilege access</h2>
+      <p>
+        API access is requested only for the capabilities needed to retrieve advertising data and manage our own
+        advertising campaigns. Access is limited to authorized operators and internal systems.
+      </p>
+
+      <h2>Automation limits</h2>
+      <p>
+        Automated changes are controlled by daily budget limits, bid-adjustment limits, account-level rules, and
+        action logs. Initial integrations are validated in read-only mode before write operations are enabled.
+      </p>
+
+      <h2>Monitoring and logs</h2>
+      <p>
+        Operational logs record report retrievals, rule decisions, and account changes. Logs support troubleshooting,
+        review, and compliance checks.
+      </p>
+
+      <h2>Data sharing</h2>
+      <p>
+        Advertising data is not sold, rented, or used to serve third-party advertisers. Service provider access, when
+        required, is limited to infrastructure and operational support.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Security questions can be sent to <a href="mailto:admin@hideandseektech.com">admin@hideandseektech.com</a>.
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; 2026 Shenzhen Hide and Seek Technology Co., Ltd. All rights reserved.</span>
+      <div>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="security.html">Data Security</a>
+      </div>
+    </footer>
+  </body>
+</html>
