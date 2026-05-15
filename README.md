@@ -4,7 +4,7 @@ Static website for `hideandseektech.com`.
 
 ## Files
 
-- `index.html` - company and internal advertising automation overview
+- `index.html` - company and e-commerce operations overview
 - `privacy.html` - privacy policy
 - `terms.html` - terms of service
 - `security.html` - data security statement
@@ -30,4 +30,4 @@ Create these GitHub repository secrets:
 
 The server should point `hideandseektech.com` at `SERVER_PATH` through Nginx, Apache, Caddy, or another static web server.
 
-For the Amazon Ads API application, use `https://hideandseektech.com` as the company website after the domain is pointed at the deployed site.
+Use `https://hideandseektech.com` as the company website.
